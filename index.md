@@ -41,27 +41,27 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 
 ### Griffin:
-**Has done:** Created the discord, posted some resources for spring, angular, and security related learning.  
-**Will do:** Explore options related to database and database communication.  
-**Challenges:** Nothing quite yet.  
+* **Has done:** Created the discord, posted some resources for spring, angular, and security related learning.  
+* **Will do:** Explore options related to database and database communication.  
+* **Challenges:** Nothing quite yet.  
 
 
 ### Sam:
-**Has done:** Research into the frameworks we plan to use.  
-**Will do:** Download and set up Android Studio, try to get a blank application created.  
-**Challenges:** Nothing quite yet, except general lack of knowledge about new frameworks and IDEs.  
+* **Has done:** Research into the frameworks we plan to use.  
+* **Will do:** Download and set up Android Studio, try to get a blank application created.  
+* **Challenges:** Nothing quite yet, except general lack of knowledge about new frameworks and IDEs.  
 
 
 ### Evan:
-**Has done:** Research into android development and frameworks.  
-**Will do:** More research into android development, download and set up Android Studio.  
-**Challenges:** Nothing quite yet, but little experience with android development.  
+* **Has done:** Research into android development and frameworks.  
+* **Will do:** More research into android development, download and set up Android Studio.  
+* **Challenges:** Nothing quite yet, but little experience with android development.  
 
 
 ### Aislinn:
-**Has done:** Research into web development and frameworks.  
-**Will do:** More research, set up the blank websites necessary for the project.  
-**Challenges:** Nothing quite yet, but little knowledge of web development and frameworks.  
+* **Has done:** Research into web development and frameworks.  
+* **Will do:** More research, set up the blank websites necessary for the project.  
+* **Challenges:** Nothing quite yet, but little knowledge of web development and frameworks.  
 
 
 ## September 16th, 2020
@@ -72,23 +72,23 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 
 ### Griffin:
-**Has done:** Researched using Maven to help with project development. Identified possible NoSQL database options.   
-**Will do:** Compile information on environment, framework, and any other necessary project information in a digestible format for other group members to have to reference.   **Challenges:** hard to get a clear full picture of everything at this point - Working with android side to plan out what would work best with them to begin making decisions.   
+* **Has done:** Researched using Maven to help with project development. Identified possible NoSQL database options.   
+* **Will do:** Compile information on environment, framework, and any other necessary project information in a digestible format for other group members to have to reference.   * * **Challenges:** hard to get a clear full picture of everything at this point - Working with android side to plan out what would work best with them to begin making decisions.   
 
 
 ### Sam:
-**Has done:** Downloaded android studio and researched android application frameworks.  
-**Will do:** Will connect android studio to our repository and upload a blank android studio project file. Will also research more into frameworks.  
-**Challenges:** Integrating any solutions/frameworks with android studio - very little experience with android studio.  
+* **Has done:** Downloaded android studio and researched android application frameworks.  
+* **Will do:** Will connect android studio to our repository and upload a blank android studio project file. Will also research more into frameworks.  
+* **Challenges:** Integrating any solutions/frameworks with android studio - very little experience with android studio.  
 
 
 ### Evan:
-**Has done:** Continued research in android frameworks.  
-**Will do:** Refresh on Java language and research how other users implemented Java into their apps.  
-**Challenges:** Still no experience in android frameworks and little knowledge of java.  
+* **Has done:** Continued research in android frameworks.  
+* **Will do:** Refresh on Java language and research how other users implemented Java into their apps.  
+* **Challenges:** Still no experience in android frameworks and little knowledge of java.  
 
 
 ### Aislinn:
-**Has done:** Set up project website, meeting notes website, and temporary web app website through Github IO, and populated the meeting notes website with all the meetings to date.  
-**Will do:** Research into database hosting options, since some companies do free hosting of small databases. Research into website hosting for web app, potentially using the same service but unsure of that yet. Install and set up android studio in case needed later.   
-**Challenges:** No experience with database hosting or website hosting, research needed.  
+* **Has done:** Set up project website, meeting notes website, and temporary web app website through Github IO, and populated the meeting notes website with all the meetings to date.  
+* **Will do:** Research into database hosting options, since some companies do free hosting of small databases. Research into website hosting for web app, potentially using the same service but unsure of that yet. Install and set up android studio in case needed later.   
+* **Challenges:** No experience with database hosting or website hosting, research needed.  
