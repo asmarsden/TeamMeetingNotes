@@ -73,7 +73,7 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 ### Griffin:
 * **Has done:** Researched using Maven to help with project development. Identified possible NoSQL database options.   
-* **Will do:** Compile information on environment, framework, and any other necessary project information in a digestible format for other group members to have to reference.   * * **Challenges:** hard to get a clear full picture of everything at this point - Working with android side to plan out what would work best with them to begin making decisions.   
+* **Will do:** Compile information on environment, framework, and any other necessary project information in a digestible format for other group members to have to reference.   * **Challenges:** hard to get a clear full picture of everything at this point - Working with android side to plan out what would work best with them to begin making decisions.   
 
 
 ### Sam:
