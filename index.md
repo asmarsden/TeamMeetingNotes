@@ -70,6 +70,11 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 * In debating between types of databases, we decided we would prefer to use NoSQL. 
 
+* It might be better to find an external database hosting service rather than try to host through campus and deal with vpns, so that option will be explored.
+
+* We think incorporating Maven into our workflow would be beneficial, and will be exploring that option soon.
+
+
 
 ### Griffin:
 * **Has done:** Researched using Maven to help with project development. Identified possible NoSQL database options.   
