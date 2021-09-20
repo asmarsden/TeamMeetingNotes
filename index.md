@@ -100,9 +100,9 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 
 
-** September 17th, 2020
+## September 17th, 2020
 
-*** General Notes: 
+### General Notes: 
 
 * We have decided to move our scrums from T,Th,F to M,W,F due to the fact that the time between our Thurday and Friday meetings was usually not enough to get much done and having meetings so close together seemed redundant, and having to wait until Tuesday to have a meeting for anything done over the weekend seemed less efficient. We will meet in person on Tuesday and Thursday when necessary for class or for collaboration, but official scrum meetings will be MWF. 
 
