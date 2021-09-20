@@ -64,6 +64,7 @@ We populated our task management dashboard with some tasks: creating a blank web
 * **Challenges:** Nothing quite yet, but little knowledge of web development and frameworks.  
 
 
+
 ## September 16th, 2020
 
 ### General Notes:
@@ -75,10 +76,9 @@ We populated our task management dashboard with some tasks: creating a blank web
 * We think incorporating Maven into our workflow would be beneficial, and will be exploring that option soon.
 
 
-
 ### Griffin:
 * **Has done:** Researched using Maven to help with project development. Identified possible NoSQL database options.   
-* **Will do:** Compile information on environment, framework, and any other necessary project information in a digestible format for other group members to have to reference.   * **Challenges:** hard to get a clear full picture of everything at this point - Working with android side to plan out what would work best with them to begin making decisions.   
+* **Will do:** Compile information on environment, framework, and any other necessary project information in a digestible format for other group members to have to reference.   * **Challenges:** hard to get a clear full picture of everything at this point - Working with android side to plan out what would work best with them to begin making decisions. 
 
 
 ### Sam:
@@ -97,3 +97,36 @@ We populated our task management dashboard with some tasks: creating a blank web
 * **Has done:** Set up project website, meeting notes website, and temporary web app website through Github IO, and populated the meeting notes website with all the meetings to date.  
 * **Will do:** Research into database hosting options, since some companies do free hosting of small databases. Research into website hosting for web app, potentially using the same service but unsure of that yet. Install and set up android studio in case needed later.   
 * **Challenges:** No experience with database hosting or website hosting, research needed.  
+
+
+
+** September 17th, 2020
+
+*** General Notes: 
+
+* We have decided to move our scrums from T,Th,F to M,W,F due to the fact that the time between our Thurday and Friday meetings was usually not enough to get much done and having meetings so close together seemed redundant, and having to wait until Tuesday to have a meeting for anything done over the weekend seemed less efficient. We will meet in person on Tuesday and Thursday when necessary for class or for collaboration, but official scrum meetings will be MWF. 
+
+
+### Griffin: 
+* **Has done:**  Created project environment using Spring Initializr utilizing Maven along with other dependencies to aid in development inside the Eclipse IDE with the Spring Tools Suite. Created a sample "Hello World" RESTful service with Spring.  
+* **Will do:** Continue to play around with the project to become more familiar with how everything works together, as well as learn about how we will utilize the dev tools to our advantage.  
+* **Challenges:** Finding the best way to distribute everything to teammates to get them setup to develop.  
+
+
+### Sam: 
+* **Has done:** Created a skeleton of the android RCV app and uploaded it to the Github repository.  
+* **Will do:** Become much more familiar with Android Studio and the languages associated.  
+* **Challenges:** Lots of unfamiliar jargon.   
+
+
+### Evan: 
+* **Has done:** Started to refresh Java background knowledge through tutorial online.  
+* **Will do:** Work with Sam on figuring out how to implement button functions on his newly created android RCV app.   
+* **Challenges:**  Java syntax can be confusing sometimes. Still need to follow along with an Android Studio tutorial, which is unfamilar.
+
+
+### Aislinn: 
+* **Has done:** Looked into database hosting options, found that AWS has a free option up to 20 GB for a year, and MongoDB has a free option up to 5 GB for an unknown amount of time: https://aws.amazon.com/rds/free/, https://www.mongodb.com/pricing. Also made potential (editable) mockups of how the database would look: https://docs.google.com/spreadsheets/d/1NizAbImWRdRm1RSx5LG8OXS0Z7zdzUtlD6RPF9buYmQ/edit?usp=sharing, 
+https://docs.google.com/spreadsheets/d/1OJUGnvzLy9wOtFwZa0xpIyH7UvgxE63HRWSI5mbsPNs/edit?usp=sharing. Also updated project website with some basic info and updated scrum notes website to look better.
+* **Will do:** Further research into database hosting and general database information, as well as catch up on information about Spring, Maven, REST, and other pieces of the framework.
+* **Challenges:** General lack of knowledge about frameworks due to inexperience.
