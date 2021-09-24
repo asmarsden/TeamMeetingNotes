@@ -5,7 +5,7 @@ This website will hold the notes from each meeting.
 
 # Sprint 1 Plan Meeting Notes:
 
-Meeting started September 10th, 2020 at 11:55 AM.
+Meeting started September 10th, 2021 at 11:55 AM.
 
 We have decided that unless we are on campus for class, we will meet remotely over Discord. This will allow us to more easily share our screens and talk about code, and also avoid unnecessary trips to and from campus.
 
@@ -27,7 +27,7 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 # Standup Meeting Notes
 
-## September 14th, 2020
+## September 14th, 2021
 
 ### General Notes
 
@@ -65,7 +65,7 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 
 
-## September 16th, 2020
+## September 16th, 2021
 
 ### General Notes:
 
@@ -100,7 +100,7 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 
 
-## September 17th, 2020
+## September 17th, 2021
 
 ### General Notes: 
 
@@ -130,3 +130,67 @@ We populated our task management dashboard with some tasks: creating a blank web
 https://docs.google.com/spreadsheets/d/1OJUGnvzLy9wOtFwZa0xpIyH7UvgxE63HRWSI5mbsPNs/edit?usp=sharing. Also updated project website with some basic info and updated scrum notes website to look better.
 * **Will do:** Further research into database hosting and general database information, as well as catch up on information about Spring, Maven, REST, and other pieces of the framework.
 * **Challenges:** General lack of knowledge about frameworks due to inexperience.
+
+
+
+## September 20th, 2021 not finished
+
+### General Notes: 
+
+* We have decided that our meeting times will specifically be 4pm on Mondays and Wednesdays, and 1pm on Fridays. 
+
+
+### Griffin: 
+* **Has done:** Sent out development environment for web application, explored linking ide to github and using AWS to host for production.  
+* **Will do:** Add the angular layer to the application, work with Aislinn on integrating AWS into our simple Hello world application  
+* **Challenges:** Still looking for a simple solution to incorporate/setup the Github to work with everyone's local development so we can begin posting/pulling etc  
+
+### Sam: 
+* **Has done:** Installed the skeleton .apk on my phone and became more familiar with Android Studio and Java.  
+* **Will do:** Get button to do something other than default functionality - if server is up then get it to ping the server.  
+* **Challenges:** Communication between the app and the server.  
+
+
+### Evan: 
+* **Has done:** Nothing outside of documentation readings and videos for Android Studio.  
+* **Will do:** Sit down have a discussion with Sam over the Android app functions and see if I can emulate the app through my computer.  
+* **Challenges:** Waiting until the address for the website is set up so that I can begin linking it to the Android app.  
+
+
+### Aislinn: 
+* **Has done:** Added notes to page for last meeting, fixed some formatting errors, did more research into database hosting options and think that AWS is our best option for hosting, partially due to more space, the fact that we wont even need a full year of hosting, and AWS offers more support and has more information for how to run their Db's online.  
+* **Will do:** Get my personal environment set up with the new framework and whatnot, set up AWS hosting so that we have a database (if everyones okay with that).  
+* **Challenges:** I have never set up a database before, only messed with preexisting things so this will be a learning experience.  
+
+
+## September 22nd, 2021
+
+### General Notes: 
+
+* We weren't able to get too much done because we were working on the writing assignment most of the last couple of days.
+
+
+### Griffin: 
+* **Has done:** read more advanced material on Spring Development, trying to climb the learning curve.   
+* **Will do:** Work with Aislinn on database linking.  
+* **Challenges:** I am in open waters at this point with the application, learning curve is high. Also, it is going to be a close call on time if integrating a basic Angular layer by the end of sprint1 is to be completed. Not sure how to approach.  
+
+
+### Sam: 
+* **Has done:** Changed button picture to a plus.  
+* **Will do:** Have the button ping the server/Start looking into Spring.  
+* **Challenges:** Not familiar with Java - having trouble navigating Android Studio.  
+
+
+### Evan: 
+* **Has done:** Research.
+* **Will do:** Start looking over Spring material that had been previously sent over by Griffin. Also waiting to start more work on the Android app.  
+* **Challenges:** Spring has a steep learning curve and will not be enjoyable to read over.  
+
+
+### Aislinn: 
+* **Has done:** Research into databases with AWS, set up aws account and began experimenting.  
+* **Will do:** Spin up mongodb database with AWS and get credentials all sorted out so that we can link stuff to the database and use it.  
+* **Challenges:** AWS is pretty finnicky with managing access to stuff so fighting with that will be fun.  
+
+
