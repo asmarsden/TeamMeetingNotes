@@ -194,3 +194,69 @@ https://docs.google.com/spreadsheets/d/1OJUGnvzLy9wOtFwZa0xpIyH7UvgxE63HRWSI5mbs
 * **Challenges:** AWS is pretty finnicky with managing access to stuff so fighting with that will be fun.  
 
 
+
+## September 24th, 2021
+
+### General Notes: 
+
+* We switched from AWS to MongoDB, which is, funnily enough, still hosted through AWS. But now we aren't the ones who have to deal with finnicky AWS stuff.
+
+
+### Griffin: 
+* **Has done:** Gotten everyone up and running with eclipse environment.   
+* **Will do:**  Work through the udemy course to see if there’s any functionality we can quickly implement before Tuesday.  
+* **Challenges:** Sorting out what we can reasonably accomplish by the end of sprint 1.  
+
+
+### Sam: 
+* **Has done:** Added dependencies for the android app.   
+* **Will do:** Connect android app to Spring REST Web API.  
+* **Challenges:** Need to learn Spring REST quickly.  
+
+
+### Evan: 
+* **Has done:** Setup Eclipse environment and bought the Spring Class so that research can begin with Spring Interface. Also got connected to MongoDB.
+* **Will do:** Work with Sam on getting app connected Spring REST Web API and start reviewing Spring REST sections for the class as well as work on presentation.  
+* **Challenges:** Trying to finish up everything before Tuesday.  
+
+
+### Aislinn: 
+* **Has done:** Updated website, added bios to website, updated meeting notes page, worked on presentation, spun up MongoDB database, got eclipse environment set up.  
+* **Will do:** Continue to work on presentation, work on connecting mongodb to our setup.  
+* **Challenges:** Connecting databases is annoying but shouldnt be too hard.  
+
+
+
+## September 27th, 2021
+
+### General Notes: 
+
+* We didn't get as much done this weekend as we had hoped due to personal commitments. The presentation is tomorrow, so we're cutting it close for the demo.
+* We decided the best idea would be to show off the fact that our android app can talk with the database. Not sure if our web-app will be able to, due to lack of angular layer as of yet.
+* We plan to have a practice presentation either tonight or tomorrow before class in order to work out any problems prior to getting up in front of the class. 
+
+
+### Griffin: 
+* **Has done:**  Successfully connected the spring application to the MongoDb and entered and tested some sample data to confirm functionality. Researched how to get the android side involved for demo purposes.   
+* **Will do:** Keep working on understanding how and implementing the method for communication with our spring boot app.  
+* **Challenges:** Doesn't look like there's going to be time to get an angular layer done before the demo time.  
+
+
+### Sam: 
+* **Has done:** Helped Evan set up Android Studio and became more familar with Java and the source code.  
+* **Will do:** Convert data into JSON, send request and JSON to database.  
+* **Challenges:** Sending the request to the database will be a challenge. Not exactly sure how to do so.  
+
+
+### Evan: 
+* **Has done:** Got Android Studio connected to the git and researched into how JSON can connect to Database from app.
+* **Will do:** Finish up demo with rest of team members and more specifically finishing up app implementation for demo.  
+* **Challenges:** Less than one day to finish and still figuring out what need to be displayed for the demo.  
+
+
+### Aislinn: 
+* **Has done:** Fought with connecting database for way too long unsuccessfully (thanks for getting it working, Griffin).  
+* **Will do:** Work on finishing up presentation, work with others on figuring out what exactly we're demoing.  
+* **Challenges:** Not much experience with databases, and my personal environment isn't properly set up.  
+
+
