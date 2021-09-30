@@ -25,7 +25,7 @@ We populated our task management dashboard with some tasks: creating a blank web
 
 
 
-# Standup Meeting Notes
+# Standup Meeting Notes Sprint 1
 
 ## September 14th, 2021
 
@@ -259,4 +259,83 @@ https://docs.google.com/spreadsheets/d/1OJUGnvzLy9wOtFwZa0xpIyH7UvgxE63HRWSI5mbs
 * **Will do:** Work on finishing up presentation, work with others on figuring out what exactly we're demoing.  
 * **Challenges:** Not much experience with databases, and my personal environment isn't properly set up.  
 
+
+
+## September 29th, 2021
+
+### General Notes: 
+
+* We had our presentation yesterday. We feel like we are behind compared to the other teams, and really want to step it up in Sprint 2. 
+* Will have planning on Thursday during class time. 
+
+
+### Griffin: 
+* **Has done:** Sprint 1 presentation.   
+* **Will do:** Continue evaluating where we were successful and how we can readjust to do more in Sprint 2.  
+* **Challenges:** Planning.  
+
+
+### Sam: 
+* **Has done:** Sprint 1 presentation and deliverables.  
+* **Will do:** Sprint 1 retrospective and Sprint 2 meeting.  
+* **Challenges:** Planning.  
+
+
+### Evan: 
+* **Has done:** Sprint 1 presentation.
+* **Will do:** Need to have Sprint 1 retrospective and plan for Sprint 2.  
+* **Challenges:** Sprint 2 planning.  
+
+
+### Aislinn: 
+* **Has done:** Did presentation yesterday, did some research into what data needs to be passed to and from database for poll stuff, but that will need to be finalized with a meeting specifically meant for that.  
+* **Will do:** Start looking into angular to get that layer figured out, plan out meeting times for Sprint 1 retrospective, Sprint 2 planning, and data stuff.  
+* **Challenges:** Planning.  
+
+
+
+# Sprint 1 Retrospective: 
+
+### Went Well
+* We did a good job keeping up with housekeeping tasks and such
+* We were able to hold each other accountable quite well
+* We communicated well all thruought the sprint
+* We did a good job ding independent research
+
+### Didn’t go well
+* We should not have split the team up between android and web app quite yet, since we had to focus on the backend and the android people ended up being left waiting a lot
+* We should've decided sooner to tackle pieces of the backend like the database rather than put it off
+* We didn't really keep up with our backlog well; we've decided to switch to a different tracker because the one we were using was kind of hard to use
+
+### Challenges
+* We weren't really using the backlog, so that led to some confusion on who was supposed to do what and when
+* Getting everything connected to spring is a pain
+* Spring in general is kind of a pain
+* Our initial plan wasn't great in the first place, so working from that led to challenges
+* We spent a lot of our time just doing research and figuring out how our backend would work in the first place
+
+
+
+# Sprint 2 Plan Meeting Notes:
+
+After doing our retrospective, we have decided to make a few changes to how our team would function:
+* We will now use Trello as our task management app.
+* We will not have the team arbitrarily split anymore.
+* We want to avoid situations where one or more team members are waiting on others to finish work, and as such will organize our tasks so that side work can be done if certain tasks have to wait on completion of other tasks.
+* We want to do more peer-programming and group programming, and will work together on tasks more often.
+
+We have populated <a href="https://trello.com/b/aFmcoupn/rcv-app">this Trello board</a> with our backlog, which at this time includes these main objectives (that have been split into smaller tasks): 
+* Hosting a website using Heroku with GitHub
+* Deciding on exactly what data needs to be passed to and from database
+* Adding testing using Postman
+* Implementing voting and poll creation functionality in Android App
+* Implementing voting functionality in Web App
+
+We hope to have these done for the most part by the end of this Sprint. Thanks to having gotten most of our backend work done in Sprint 1, this should not take too long once we establish connectivity between our backend and our two front ends. 
+
+We felt like we were behind the other teams in terms of functionality, and part of that was due to our planning problems with the first Sprint. This Sprint, we really want to catch up and get as much of the functionality for our applications in place so that during Sprint 3 we can focus on things like look and feel and accessibility. 
+
+
+
+#Standup Meeting Notes Sprint 2
 
