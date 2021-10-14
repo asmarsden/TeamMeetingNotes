@@ -337,5 +337,198 @@ We felt like we were behind the other teams in terms of functionality, and part 
 
 
 
-#Standup Meeting Notes Sprint 2
+# Standup Meeting Notes Sprint 2
 
+## October 1st, 2021
+
+### General Notes: 
+
+* Decided to have data details meeting next week to plan out specifics
+* We are using Trello now, and that seems to be working better than PivotalTracker
+
+
+### Griffin: 
+* **Has done:** Worked with aislinn to try to deploy app to heroku, tried to adjust github repository to solve the issues.  
+* **Will do:**  Try to recreate the project from local files into a new repository and deply to heroku from there over the weekend.  
+* **Challenges:** Deciding to stick with heroku or consider other options.  
+
+
+### Sam: 
+* **Has done:** Setup new project backlog on Trello with Evan.  
+* **Will do:** Begin thinking about API.  
+* **Challenges:** Not exactly sure how designing the API needs to be approached (Do we need to store local id's for polls? etc.)  
+
+
+### Evan: 
+* **Has done:** Helped Sam set up our new project backlog using Trello. Doing this will help production flow smoother than last sprint.   
+* **Will do:** Start working on some of the activities from the project backlog, particularly android tasks or others that I will sign up for.  
+* **Challenges:** Need to work sooner rather than later so we get more accomplished this sprint.
+
+
+### Aislinn: 
+* **Has done:** Tried to figure out heroku problems for a while, was unsuccessful. Updated notes page.  
+* **Will do:** Continue working to figure out heroku or see if theres another option for hosting, coordinate a time for data meeting because might as well get that out of the way.
+* **Challenges:** For some reason Eclipse automatically packages stuff into folders weirdly and heroku doesn't like that.  
+
+
+
+## October 4th, 2021
+
+### General Notes: 
+
+* Data meeting is tomorrow (October 5th)
+
+
+### Griffin: 
+* **Has done:** Worked on possible fixes for the heroku deploy issues.  
+* **Will do:** Implement Start-from-scratch option to fix heroku before looking for a new hosting solution.  
+* **Challenges:** Bit of a hassle to redo everything to get what we have now to work with heroku.  
+
+
+### Sam: 
+* **Has done:** Updated a few Trello cards and designed some API.  
+* **Will do:** Get android app to handle example data from https://jsonplaceholder.typicode.com/  
+* **Challenges:** Very new to object-oriented code design.  
+
+
+### Evan: 
+* **Has done:** Researching into how controllers work, that might be my task that I pick up along with helping Sam with Android tasks.  
+* **Will do:** Do more research into how to implement controller and prepare for data meeting.  
+* **Challenges:** Pretty sure we have to figure out other tasks before implementing controllers.  
+
+
+### Aislinn: 
+* **Has done:** Tried to figure out heroku again, failed. Did some learning on how to use angular since I need to know that after we get website hosted anyway.  
+* **Will do:** Look at alternatives to heroku if Griffin can't get it to work for website hosting, learn more about angular, prepare for data meeting tomorrow after class.  
+* **Challenges:** All of these pieces together make trying to figure out how to put a new piece in kind of annoying.  
+
+
+
+## October 6th, 2021
+
+### General Notes: 
+
+* Data meeting was successful; we now have outlines for exactly what data needs to be sent where in calls to and from the database. This will help with implementing the models/controllers/repositories to be used in our applications.
+* Griffin and Aislinn both have major exams on Friday, so have to shift focus away from this project for a couple of days.
+
+
+### Griffin: 
+* **Has done:** Got everyone on the same page with what we have to accomplish with the spring app, and how we're going to organize the development.  
+* **Will do:** Work on spring app controllers and other related files to be able to start postman'ing and implementing functionality to begin building unit tests.  
+* **Challenges:** Busy second half of the week with 2 tests on friday, time has been devoted to other classes.  
+
+
+### Sam: 
+* **Has done:** Attended the data meeting and created the basic outline for our database organization.  
+* **Will do:** Continue to work on the android app.  
+* **Challenges:** Still unfamiliar with object-oriented code design.  
+
+
+### Evan: 
+* **Has done:** Attended our data meeting and joined new repository, but wasn’t able to get much accomplished after because of a test and lab that I had to finish.  
+* **Will do:** Continue to work on controllers and working with Aislinn and or Griffin on how to implement controllers.  
+* **Challenges:** Not sure if I need to wait to implement controllers so that they can work with another task, but need to work before other classes take up my free time.  
+
+
+### Aislinn: 
+* **Has done:** Worked on adding angular into framework, god a repo with the website hosted from angular in existence and added angular project to our main repo, but havent connected it to springboot app yet via dependencies and stuff.  
+* **Will do:** Continue work on angular stuff, but wont be able to do a whole lot because exam on friday and I plan to pivot to focus on that for the next couple days, but by Friday afternoon I can pivot back to this.  
+* **Challenges:** Lots of pieces that interact strangely with each other.  
+
+
+
+## October 8th, 2021
+
+### General Notes: 
+
+* Short meeting; not much was done since the last one. 
+
+
+### Griffin: 
+* **Has done:** Studied the sample repository to begin working on spring app services and modelling.  
+* **Will do:** Get enough laid out to begin postman'ing.  
+* **Challenges:** Time constraints.  
+
+
+### Sam: 
+* **Has done:** Researched object-oriented code design by downloading and examining example projects.  
+* **Will do:** Work on the android app.  
+* **Challenges:** Same challenges.  
+
+
+### Evan: 
+* **Has done:** Researched structure and function of controllers and how to use them in our system.  
+* **Will do:** Start implementing controllers into Eclipse.  
+* **Challenges:** Still confused on controller syntax and where to implement.  
+
+
+### Aislinn: 
+* **Has done:** Researched angular, had to pause to study for exam.  
+* **Will do:** More angular stuff for web frontend stuff and getting that connected to backend.  
+* **Challenges:** Same old, same old.  
+
+
+
+## October 11th, 2021
+
+### General Notes: 
+
+* There are some nasty sicknesses going around school right now; affecting productivity. 
+* We decided that instead of having one person focus on all of the controllers, another on all the models, etc. we will split it up so that each person working on this area has their own whole pipeline to follow through on (ie. someone works on the user controller, model, and repository; someone else works on the creator controller, model, and repository, etc.) to avoid having hangups waiting on others to complete sections of work so much.
+
+
+### Griffin: 
+* **Has done:** Skeleton'd and stubbed out my local version for most of the services and models.  
+* **Will do:** Get a test case dreamt up as a goal to achieve as functionality checkpoint.  
+* **Challenges:** Will have to study between now and the next meeting for a test on that day.  
+
+
+### Sam: 
+* **Has done:**  Located an android studio tutorial that I'm going to go through.  
+* **Will do:** Do the tutorial and see if I can make good progress on the app.  
+* **Challenges:** Tutorial is long.  
+
+
+### Evan: 
+* **Has done:** Started implementing in Eclipse functionality for controllers.  
+* **Will do:** Finish controller modules.  
+* **Challenges:** Syntax still catching me off guard, need to look more into syntax.  
+
+
+### Aislinn: 
+* **Has done:** Researched a little bit of angular, was sick so slept most of the weekend and wasn't able to do much.  
+* **Will do:** Get front end fully integrated and some sort of functionality in place to prove connectivity to database.  
+* **Challenges:** Same old challenges.  
+
+
+
+## October 13th, 2021
+
+### General Notes: 
+
+* We decided to set a hard deadline for end to end connectivity to be October 15th at 1pm, in order to spend next week knocking out as much functionality as possible before the end of the Sprint.
+* We are going to have a peer-programming session tomorrow during class-time.
+
+
+### Griffin: 
+* **Has done:** Continued work on spring boot from last week.  
+* **Will do:** Peer coding session tomorrow for team meeting - must prepare for that.  
+* **Challenges:** Had to reconsider the development approach and adopt a new one other than how we initially had assigned the tasks.  
+
+
+### Sam: 
+* **Has done:** Worked through some of the android studio tutorial.  
+* **Will do:** Demonstrate basic connectivity from the android app all the way to the database.  
+* **Challenges:** XML is a harder language than anticipated.  
+
+
+### Evan: 
+* **Has done:** Worked on User pathway (Controller, Repository, Model, etc.)  
+* **Will do:** Continue working on that pathway.  
+* **Challenges:** Need to review tutorials on how Springboot works with angular and mongodb api.  
+
+
+### Aislinn: 
+* **Has done:** Worked on angular, got snagged on our current project structure but should be able to fix that now that I've touched base with Griffin on it.  
+* **Will do:** Finish this tutorial and hopefully have connectivity through from database to angular app.  
+* **Challenges:** There are a lot of little pieces that are annoying.  
