@@ -532,3 +532,165 @@ We felt like we were behind the other teams in terms of functionality, and part 
 * **Has done:** Worked on angular, got snagged on our current project structure but should be able to fix that now that I've touched base with Griffin on it.  
 * **Will do:** Finish this tutorial and hopefully have connectivity through from database to angular app.  
 * **Challenges:** There are a lot of little pieces that are annoying.  
+
+
+
+## October 15th, 2021
+
+### General Notes: 
+
+* Aislinn was able to display end to end connectivity between an angular frontend and the database, so now the rest of the team can move forward with various pieces such as the user pipeline, voter pipeline, poll pipeline, android app, and angular app. 
+
+
+### Griffin: 
+* **Has done:** Had to fight dependency bugs which took up so much time in order to get the mapstruct dependency working for DTO implementations.  
+* **Will do:** Continue to try to tackle the problems in the code that are preventing my poll DTO from being filled correctly.  
+* **Challenges:** Had to fight dependency bugs which took up so much time in order to get the mapstruct dependency working for DTO implementations.  
+
+
+### Sam: 
+* **Has done:** Got android app to work with example code from https://jsonplaceholder.typicode.com/posts.  
+* **Will do:** Get android app to work with local instance of Spring and work on UI.  
+* **Challenges:** Android Studio UI has not been cooperating.  
+
+
+### Evan: 
+* **Has done:** Created user repository, model, and little of controller, service and implementation.   
+* **Will do:** Finish tasks listed as halfway done and compile them so that they are ready for testing.  
+* **Challenges:** Have to overcome some maven issues that are similar to what Griffin had to deal with.  
+
+
+### Aislinn: 
+* **Has done:** Followed tutorial, got end to end connectivity but its only locally hosted as of right now, will have to research how to host a whole springboot app somewhere (the angular gets hosted just fine, but without the rest of the springboot app it doesn’t actually do anything) but now we can run and test end to end stuff locally, so we can work on controllers/models/repositories and stuff as well as angular UI and stuff for the webapp. Also updated project notes website.    
+* **Will do:** Work on making an angular frontend that is actually applicable to our app using this as a reference; look into hosting options for full springboot apps.  
+* **Challenges:** We previously already had a lot of problems with Heroku, but it still seems like the best option unfortunately.    
+
+
+
+## October 18th, 2021
+
+### General Notes: 
+
+* Going to have a peer programming session on Thursday to work through some of these pieces.
+
+
+### Griffin: 
+* **Has done:** Implemented vote pipeline, started to begin testing.  
+* **Will do:** Iron out any bugs that may pop up when i finish testing and begin creating test unit cases from the functionality we have.  
+* **Challenges:** Have to get enough of this done in time for Aislinn to have enough time to work on Angular.  
+
+
+### Sam: 
+* **Has done:** Designed some of the UI.  
+* **Will do:** Implement the design and get Spring working.  
+* **Challenges:** Not very familiar with Spring yet.  
+
+
+### Evan: 
+* **Has done:** Finishing up on user pipeline  
+* **Will do:** Commit changes and begin testing.  
+* **Challenges:** Time management so that Aislinn has enough time to work with the results.  
+
+
+### Aislinn: 
+* **Has done:** Worked on frontend angular stuff, integrating a tool that'll make it easier to put modules in but running into some versioning issues.  
+* **Will do:** Continue working on frontend, once I have some stuff to connect through to ill work on adding actual functionality.  
+* **Challenges:** Angular is dumb.  
+
+
+
+## October 20th, 2021
+
+### General Notes: 
+
+* The tool that would have been used for the Angular app is incompatible with Springboot, so that option is out the window and progress is lost on the angular frontend.
+
+
+### Griffin: 
+* **Has done:** Polished some vote and poll code to do more in depth testing.  
+* **Will do:** Consider how much RCV-specific functionality can be implemented on top of our base polling system in time for the presentation.    
+* **Challenges:** Creating full unit tests with sample data: not sure when to stop adding functionality and when to switch over to testing it.  
+
+
+### Sam: 
+* **Has done:** Updated dependencies and worked on the Android App.  
+* **Will do:** Get basic functionality working - not worrying about looks yet.  
+* **Challenges:** Lots of warnings.  
+
+
+### Evan: 
+* **Has done:** Prepared for Peer Programming session tomorrow.    
+* **Will do:** Conduct session tomorrow and hopefully have everything needed for sprint 2 working by tomorrow or by the end of the weekend.  
+* **Challenges:** Deadline for Sprint 2 closing in.  
+
+
+### Aislinn: 
+* **Has done:** Worked on angular.   
+* **Will do:** Work on angular.  
+* **Challenges:** Angular.  
+
+
+
+
+## October 22th, 2021
+
+### General Notes: 
+
+* We have the weekend to work on the project, hopefully we can get a lot done during that time. 
+
+
+### Griffin: 
+* **Has done:** Continued working on integrating poll, vote, and user together. Added the RUD of crud for polls.  
+* **Will do:** Edit models' structure to match what comes from the android app.  
+* **Challenges:** Still haven't gotten to writing tests: concerned with getting angular connected.  
+
+
+### Sam: 
+* **Has done:** Got example POST request to work and added create poll page.  
+* **Will do:** Get poll creation to work with the spring rest api.  
+* **Challenges:** Still unfamiliar with Spring Rest.  
+
+
+### Evan: 
+* **Has done:** Pushed initial version of User Pipeline.    
+* **Will do:** Test and complete pipeline.  
+* **Challenges:** Eclipse is still really weird to work sometimes.  
+
+
+### Aislinn: 
+* **Has done:** Worked on angular.   
+* **Will do:** Work on angular.  
+* **Challenges:** Angular.  
+
+
+
+## October 25th, 2021
+
+### General Notes: 
+
+* The presentation is tomorrow, and unfortunately we don't have as much functionality as we want. 
+* We will all be working for a large portion of time to get this done tonight to be ready for the presentation tomorrow.
+
+
+### Griffin: 
+* **Has done:** Working on getting a valid build together with all the user stuff included. Working with Aislinn to get Angular connected.  
+* **Will do:** Angular first, then unit tests.  
+* **Challenges:**  running into what seems to be pure configuration issues where our Angular is not running with our server so our paths are only leading to 404's.  
+
+
+### Sam: 
+* **Has done:** Added error checking and flushed out create poll page.  
+* **Will do:** Just need to get the POST request to work with the spring rest api - will also work on sprint 2 presentation.  
+* **Challenges:** Still unfamiliar with Spring Rest.  
+
+
+### Evan: 
+* **Has done:** Finished User Pipeline.   
+* **Will do:** Create and finish the Sprint 2 Presentation.  
+* **Challenges:** Upcoming presentation tomorrow.  
+
+
+### Aislinn: 
+* **Has done:** Worked on angular.   
+* **Will do:** Work on angular.  
+* **Challenges:** Angular.  
