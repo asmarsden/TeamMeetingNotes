@@ -133,7 +133,7 @@ https://docs.google.com/spreadsheets/d/1OJUGnvzLy9wOtFwZa0xpIyH7UvgxE63HRWSI5mbs
 
 
 
-## September 20th, 2021 not finished
+## September 20th, 2021
 
 ### General Notes: 
 
@@ -694,3 +694,365 @@ We felt like we were behind the other teams in terms of functionality, and part 
 * **Has done:** Worked on angular.   
 * **Will do:** Work on angular.  
 * **Challenges:** Angular.  
+
+
+# Sprint 2 Retrospective: 
+
+### Went Well
+* We were good at communicating when issues arose during the development process
+* We were much more clear in defining our backlog, unlike in Sprint 1
+* 
+
+### Didn’t go well
+* Due to a number of last minute changes of plans and personal emergencies, not as much work got done as was needed
+* We did not split the work up as well as we had hoped, which left some people with much larger pieces to fight with than others
+* We did not do as much peer programming as we had hoped to do, which left some people out of the loop on other sections
+
+
+### Challenges
+* Our specific combination of Spring, Angular, Android, and MongoDB is easy to find basic documentation for, but troubleshooting is much more difficult as a lot of the problems we run into are specific to us and not the framework we chose
+
+
+
+
+# Sprint 3 Plan Meeting Notes:
+We debated on whether or not we need to cut some functionality in order to complete the project in time, and came up with a set of minimum deliverables and a set of stretch goals for if we have extra time for development. 
+
+### Minimum Deliverables:
+* The project website as required
+* The project video as required
+* Some sort of voting functionality in both the Android application and the Angular application
+* Backend functionality to close polls and calculate the results of a poll
+* Unit test cases running through the making of a poll, voting on the poll, closing the poll, and calculating the results
+
+### Stretch Goals:
+* Better UI for the Android application
+* Better UI for the Angular application
+* More voting and poll making settings and options
+
+We have a lot to do, but we should be able to get it done. 
+
+
+# Standup Meeting Notes Sprint 3
+
+## October 27th, 2021
+
+### General Notes: 
+
+* We didn't do much by this date; it was Fall break, so we decided to take a bit of a break and reconvene Monday to plan for Sprint 3.
+
+
+### Griffin: 
+* **Has done:** Prepped and Presented for sprint 2.  
+* **Will do:**  Prepare for sprint 3 meeting.  
+* **Challenges:** Still a lot left to do in sprint 3.  
+
+
+### Sam: 
+* **Has done:** Got the android app to successfully post a poll into the database/worked on the presentation.  
+* **Will do:** Attend the sprint 3 meeting.  
+* **Challenges:** Lots to get done in sprint 3.  
+
+
+### Evan: 
+* **Has done:** Presented Sprint 2 Presentation.   
+* **Will do:** Attend Sprint 3 meeting.  
+* **Challenges:** Need to get a lot done for sprint 3.  
+
+
+### Aislinn: 
+* **Has done:** Prepped for sprint 3 meeting.  
+* **Will do:** Attend sprint 3 meeting.  
+* **Challenges:** Still so much to do this upcoming sprint.  
+
+
+
+## November 1st, 2021
+
+### General Notes: 
+
+* We had our Sprint 3 planning meeting today, which went well! 
+* Discussed which pieces of our final product we could cut and which pieces are necessary.
+* Discussed potential security methods such as log ins, tokens, etc. and decided that if we have time, we should implement a log in only on the Android app for security's sake (and to make it easier for people to find all the polls they have made)
+* Divvy'd up tasks to work on for the time being, and reprioritized what's left.
+
+
+### Griffin: 
+* **Has done:** attended sprint 3 meeting and worked with android side about finalizing design decisions, down to var names.  
+* **Will do:**  First priority things seem to be all hands on deck for updating the backend.  
+* **Challenges:** The sooner we get the backend updates done we can move to front end.  
+
+
+### Sam: 
+* **Has done:** Attended sprint 3 meeting.  
+* **Will do:** Implement the Poll, Ballot, and User objects.  
+* **Challenges:** Lots to do in sprint 3.  
+
+
+### Evan: 
+* **Has done:** Met up to plan our next steps for sprint 3.   
+* **Will do:** Start working on tasks for sprint 3.  
+* **Challenges:** Need to start working as soon as possible so that we are not rushing at the end of this sprint. Our goal is to finish with enough time so that we might be able to add more to project as a whole in the end.  
+
+
+### Aislinn: 
+* **Has done:** Attended sprint 3 meeting today, lots of good discussion.  
+* **Will do:** Work on unit test cases and general testing of pipeline.  
+* **Challenges:** I've only ever done unit tests in ROBOT which is quite possibly the worst testing framework in existence.  
+
+
+
+## November 3rd, 2021
+
+### General Notes: 
+
+* There are a lot of exams and projects due this week which are taking up a lot of our members' time. Progress is being made, though.
+
+
+### Griffin: 
+* **Has done:** Project in other class.  
+* **Will do:**  Update personal task assignment on trello.  
+* **Challenges:** Test on friday taking next chunk of study time.  
+
+
+### Sam: 
+* **Has done:** Looked into authentication HTTP requests.  
+* **Will do:** Implement all of the classes.  
+* **Challenges:** Still don't really understand how authentication will work.  
+
+
+### Evan: 
+* **Has done:** Came up with concept art-ish for the app icon.   
+* **Will do:** Assign myself to a task on trello.  
+* **Challenges:** Tests in other classes take up too much time.  
+
+
+### Aislinn: 
+* **Has done:** Project in other class and study for exam in other class.  
+* **Will do:** Study for exam some more, work on test cases.  
+* **Challenges:** Running low on time, still a lot to do.  
+
+
+
+## November 5th, 2021
+
+### General Notes: 
+
+* Backend functionality is getting done, and soon all the pieces should be in place for the front end to use as needed.
+
+
+### Griffin: 
+* **Has done:** Joined tasks cards in Trello, worked on those tasks: basically everything to do with integrating the new ballot and removing vote.  
+* **Will do:**  Push changes sometime this weekend if I can get it stable and functional via postman.  
+* **Challenges:** Need to consult other members but it looks like i'll have to treat a ballot like a poll as far as necessary backend stuff goes - needing a dto and mapper, and adding a member to a ballot linking it to the poll it refers to. Split into "createBallot", grabbing dto from @post and linking parentPollCode in. And "castBallot", where I find the poll by code and then append the ballot into that poll's lost ballot.  
+
+
+### Sam: 
+* **Has done:** Removed unused imports and requirePassword from android app.  
+* **Will do:** Begin developing voting for the android app.  
+* **Challenges:** UI will be very tricky to work with.  
+
+
+### Evan: 
+* **Has done:** Has looked into created login page.   
+* **Will do:** Assign myself to trello card and work on login task.  
+* **Challenges:** Apparently different ways to implement spring boot login page.  
+
+
+### Aislinn: 
+* **Has done:** Exam in other class, some research into unit tests with springboot.  
+* **Will do:** Continue to work on unit test cases, want to get a skeleton of a good testing setup figured out so that I can finish it off once rest of backend is complete.  
+* **Challenges:** All of my classes have stuff going on at the same time, annoyingly.  
+
+
+
+## November 8th, 2021
+
+### General Notes: 
+
+* Just got done with the weekend.
+
+
+### Griffin: 
+* **Has done:** Finished up weekend work.  
+* **Will do:**  Push changes.  
+* **Challenges:** About to have to switch over to angular or tests after we get this part out of the way.  
+
+
+### Sam: 
+* **Has done:** Renamed firstFragment and secondFragment to appropriate names.  
+* **Will do:** Add a new fragment for voting on a poll.  
+* **Challenges:** UI will be tricky to work with.  
+
+
+### Evan: 
+* **Has done:** Continuing working on login in processes.   
+* **Will do:** Implement login process logic to user functionality.  
+* **Challenges:** Finding time to work.  
+
+
+### Aislinn: 
+* **Has done:** Worked on adding test cases, ready to add to them once I have info on how ballots exist in backend.  
+* **Will do:** continue working on that, available to work with others on other backend pieces as necessary-- literally nothing else this week due for me.  
+* **Challenges:** Finding time to work on all of this.  
+
+
+
+## November 10th, 2021
+
+### General Notes: 
+
+* There are some problems with ballot creation in the database, we will focus on fixing these problems as soon as possible.
+
+
+### Griffin: 
+* **Has done:** Tried addressing an issue where inside the mongoDB collection after a poll's creation, once a ballot was cast into that poll, the accessable array object in Mongodb did not reflect the existence of the ballot using the updatePoll service.  
+* **Will do:**  Possibly peer programming with Aislinn and Evan on Mongounit tests to expedite progress to move to frontend.  
+* **Challenges:** The service is pretty simple so it doesn't appear that there's too many other places to look - might have to try simply deleting and creating a new poll on update with the cloned data with the addition.  
+
+
+### Sam: 
+* **Has done:** Removed setting end date/time. Added fragment_login, fragment_create, and fragment_vote.  
+* **Will do:** Finish basic functionality for fragment_vote.  
+* **Challenges:** Trouble understanding standard design for android apps - not sure if I'm making a big mistake by separating fragments ("rooms") by class.  
+
+
+### Evan: 
+* **Has done:** Worked on user functionality to incorporate login process and created a list that stores all past user’s poll codes.   
+* **Will do:** Finish and push changes then start working on user test cases with Aislinn and reading over what Griffin just sent in the group chat.  
+* **Challenges:** Might need to hold off on actual implementation of user process, but can still be used for test cases.  
+
+
+### Aislinn: 
+* **Has done:** Did a little work on unit tests and angular, learning about mongo unit tests.  
+* **Will do:** Continue to work on these pieces, devoting basically all of Thursday to it and the essay.  
+* **Challenges:** Had to fight with Eclipse for a while again because getting updates from the github repo is more than I can ask from it, apparently.  
+
+
+
+## November 12th, 2021
+
+### General Notes: 
+
+* The problems with the ballot creation that we had troubles with previously have been somewhat dealt with, and further progress can commence. 
+
+
+### Griffin: 
+* **Has done:** Worked on other classes work to free time for this last week of project work.  
+* **Will do:**  Address poll update issue, whether that’s a fix or declare it a non issue.  
+* **Challenges:** Finding time to work on everything.  
+
+
+### Sam: 
+* **Has done:** Added some boilerplate code for the newly added fragments.  
+* **Will do:** Finish core functionality for voting - will worry about looks later.  
+* **Challenges:** Having a hard time with "dynamic XML" - basically the ability to create/delete XML objects during runtime.  
+
+
+### Evan: 
+* **Has done:** Pushed User changes.   
+* **Will do:** Fix user findByPollCode functionality and start unit test cases.  
+* **Challenges:** work load is ramping up because it’s the end of the semester.  
+
+
+### Aislinn: 
+* **Has done:** Worked on unit tests.  
+* **Will do:** Continue work on unit tests, should finish soon and switch to angular over the weekend.  
+* **Challenges:** These unit tests have annoying requirements.  
+
+
+
+## November 15th, 2021
+
+### General Notes: 
+
+* This weekend went fairly well for most of us, and some progress was made. Not much to document, other than that we are continuing to work on what we have been working on.
+
+
+### Griffin: 
+* **Has done:** Large chunk of ethics paper.  
+* **Will do:**  Add the poll termination logic so android side can test its user end poll button. Might Run into same issues as with poll update issue.  
+* **Challenges:** Getting everything out of the way to focus on the project.  
+
+
+### Sam: 
+* **Has done:** Swapped priority to flushing out poll creation and the poll menu. Finished adding the ability to add candidates.  
+* **Will do:** Finish the ability to remove candidates.  
+* **Challenges:** Adding views during runtime is challenging - function names do not match the XML elements well.  
+
+
+### Evan: 
+* **Has done:** Looked over Unit Test Case - MongoUnit documentation and last function for User Service Implementation.   
+* **Will do:** Write some test cases and push that change to User.  
+* **Challenges:** Unit Tests were not friendly last sprint, but it should be better this time around.  
+
+
+### Aislinn: 
+* **Has done:** Worked on unit tests, made progress but didnt have much time over nightmare of a weekend.  
+* **Will do:** Continue that, then pivot to angular.  
+* **Challenges:** Mongounit continues to have weird syntax and finding good examples to go off of is difficult.  
+
+
+
+## November 17th, 2021
+
+### General Notes: 
+
+* We have been getting as much unrelated tasks out of the way so that we can focus on this project without being concerned for other classes for a while.
+
+
+### Griffin: 
+* **Has done:** Added poll ending functionality at the end point /api/poll/urlcode/end. Fixed issue where ballot code wasn’t being added into the mongo poll document when a ballot was cast.  
+* **Will do:**  Work on the pseudocode for finding a winner.  
+* **Challenges:** Need to know if front end can implement the endpoint system the way we want it to which could in turn cause changes.  
+
+
+### Sam: 
+* **Has done:** Did not complete much - have been very sick. Made slight visual changes to the poll menu.  
+* **Will do:** Finish the ability to remove candidates.  
+* **Challenges:** Having trouble figuring out how linking the x buttons to the dynamically created candidate will work.  
+
+
+### Evan: 
+* **Has done:** Worked on research paper, had to change gears to focus more on unit test cases.   
+* **Will do:** Work on unit test cases.  
+* **Challenges:** Time is counting down and need to get stuff done.  
+
+
+### Aislinn: 
+* **Has done:** Worked on unit tests and ethics paper, finished up other classes stuff so I can focus on only this for the forseeable future.  
+* **Will do:** Fight with unit tests some more.  
+* **Challenges:** There's not much info on Mongounit so while it seems like the best option to use, finding examples of people using it like we are is a bit of a struggle.  
+
+
+
+## November 19th, 2021
+
+### General Notes: 
+
+* All of us are varying degrees of sick due to whatever it is going around campus, which has made productivity slow down quite a bit.  
+
+
+### Griffin: 
+* **Has done:** Worked on the poll result calculation functionality.  
+* **Will do:**  Continue with that and help Aislinn with Angular stuff as needed.  
+* **Challenges:** Getting close to the due date but still too much to do.  
+
+
+### Sam: 
+* **Has done:** Finished the ability to remove candidates. Also added a scroll bar for when many candidates are added.  
+* **Will do:** Finish the poll menu - will require saving and loading polls after creation.  
+* **Challenges:** Undefined behavior with some XML elements. Adding an ID to a LinearLayout causes the app to crash.  
+
+
+### Evan: 
+* **Has done:** Very little due to sickness and paper, but worked more on app icon.   
+* **Will do:** Still need to work on unit test cases.  
+* **Challenges:** Working while battling this cold or whatever it might be.  
+
+
+### Aislinn: 
+* **Has done:** Switched priority to focusing on Angular side of things, working on adding voting functionality.  
+* **Will do:** Continue to work on voting functionality for Angular.  
+* **Challenges:** I'm still not the best with Angular, so learning how to do this is difficult.  
+
